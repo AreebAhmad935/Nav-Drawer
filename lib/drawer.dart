@@ -6,7 +6,9 @@ class Drawerapp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("Nav Drawer")),
+      appBar: AppBar(
+        title: const Text("Nav Drawer"),
+      ),
       drawer: Drawer(
         child: ListView(
           children: <Widget>[
@@ -16,8 +18,7 @@ class Drawerapp extends StatelessWidget {
               decoration: BoxDecoration(
                 color: Colors.black,
               ),
-              currentAccountPicture:
-                  CircleAvatar(backgroundColor: Colors.red),
+              currentAccountPicture: CircleAvatar(backgroundColor: Colors.red),
             ),
             ListTile(
                 leading: const Icon(Icons.library_music),
@@ -38,33 +39,33 @@ class Drawerapp extends StatelessWidget {
                   Navigator.pop(context);
                 }),
             ListTile(
-                leading: Icon(Icons.apps),
-                title: Text("Apps"),
+                leading: const Icon(Icons.apps),
+                title: const Text("Apps"),
                 onTap: () {
                   Navigator.pop(context);
                 }),
             ListTile(
-                leading: Icon(Icons.dashboard),
-                title: Text("Docs"),
+                leading: const Icon(Icons.dashboard),
+                title: const Text("Docs"),
                 onTap: () {
                   Navigator.pop(context);
                 }),
             ListTile(
-                leading: Icon(Icons.settings),
-                title: Text("Settings"),
+                leading: const Icon(Icons.settings),
+                title: const Text("Settings"),
                 onTap: () {
                   Navigator.pop(context);
                 }),
-            Divider(),
+            const Divider(),
             ListTile(
-                leading: Icon(Icons.info),
-                title: Text("About"),
+                leading: const Icon(Icons.info),
+                title: const Text("About"),
                 onTap: () {
                   Navigator.pop(context);
                 }),
             ListTile(
-                leading: Icon(Icons.power_settings_new),
-                title: Text("Logout"),
+                leading: const Icon(Icons.power_settings_new),
+                title: const Text("Logout"),
                 onTap: () {
                   Navigator.pop(context);
                 }),

@@ -1,0 +1,188 @@
+import 'package:flutter/material.dart';
+
+class Hiii extends StatelessWidget {
+  const Hiii({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        centerTitle: true,
+        title: const Text('devBar'),
+      ),
+      drawer: Drawer(
+        elevation: 5,
+        child: ListView(
+          children: [
+            const DrawerHeader(
+              decoration: BoxDecoration(
+                  gradient: LinearGradient(
+                begin: Alignment.topRight,
+                end: Alignment.bottomLeft,
+                colors: [
+                  Colors.blue,
+                  Colors.red,
+                ],
+              )),
+              child: Text('header'),
+              duration: Duration(milliseconds: 100),
+            ),
+            ListTile(
+                leading: const Icon(Icons.abc_rounded),
+                trailing: const Icon(Icons.abc),
+                title: const Text('abc'),
+                hoverColor: Colors.lightGreen,
+                focusColor: Colors.lightBlue,
+                onTap: () {
+                  Navigator.pop(context);
+                }),
+            ListTile(
+                leading: const Icon(Icons.abc_rounded),
+                trailing: const Icon(Icons.abc),
+                title: const Text('abc'),
+                hoverColor: Colors.lightGreen,
+                focusColor: Colors.lightBlue,
+                onTap: () {
+                  Navigator.pop(context);
+                }),
+            ListTile(
+                leading: const Icon(Icons.abc_rounded),
+                trailing: const Icon(Icons.abc),
+                title: const Text('abc'),
+                hoverColor: Colors.lightGreen,
+                focusColor: Colors.lightBlue,
+                onTap: () {
+                  Navigator.pop(context);
+                }),
+            ListTile(
+                leading: const Icon(Icons.abc_rounded),
+                trailing: const Icon(Icons.abc),
+                title: const Text('abc'),
+                hoverColor: Colors.lightGreen,
+                focusColor: Colors.lightBlue,
+                onTap: () {
+                  Navigator.pop(context);
+                }),
+            ListTile(
+                leading: const Icon(Icons.abc_rounded),
+                trailing: const Icon(Icons.abc),
+                title: const Text('abc'),
+                hoverColor: Colors.lightGreen,
+                focusColor: Colors.lightBlue,
+                onTap: () {
+                  Navigator.pop(context);
+                }),
+            ListTile(
+                leading: const Icon(Icons.abc_rounded),
+                trailing: const Icon(Icons.abc),
+                title: const Text('abc'),
+                hoverColor: Colors.lightGreen,
+                focusColor: Colors.lightBlue,
+                onTap: () {
+                  Navigator.pop(context);
+                }),
+            ListTile(
+                leading: const Icon(Icons.abc_rounded),
+                trailing: const Icon(Icons.abc),
+                title: const Text('abc'),
+                hoverColor: Colors.lightGreen,
+                focusColor: Colors.lightBlue,
+                onTap: () {
+                  Navigator.pop(context);
+                }),
+            ListTile(
+                leading: const Icon(Icons.abc_rounded),
+                trailing: const Icon(Icons.abc),
+                title: const Text('abc'),
+                hoverColor: Colors.lightGreen,
+                focusColor: Colors.lightBlue,
+                onTap: () {
+                  Navigator.pop(context);
+                }),
+            ListTile(
+                leading: const Icon(Icons.abc_rounded),
+                trailing: const Icon(Icons.abc),
+                title: const Text('abc'),
+                hoverColor: Colors.lightGreen,
+                focusColor: Colors.lightBlue,
+                onTap: () {
+                  Navigator.pop(context);
+                }),
+            ListTile(
+                leading: const Icon(Icons.abc_rounded),
+                trailing: const Icon(Icons.abc),
+                title: const Text('abc'),
+                hoverColor: Colors.lightGreen,
+                focusColor: Colors.lightBlue,
+                onTap: () {
+                  Navigator.pop(context);
+                }),
+            ListTile(
+                leading: const Icon(Icons.abc_rounded),
+                trailing: const Icon(Icons.abc),
+                title: const Text('abc'),
+                hoverColor: Colors.lightGreen,
+                focusColor: Colors.lightBlue,
+                onTap: () {
+                  Navigator.pop(context);
+                }),
+            ListTile(
+                leading: const Icon(Icons.abc_rounded),
+                trailing: const Icon(Icons.abc),
+                title: const Text('abc'),
+                hoverColor: Colors.lightGreen,
+                focusColor: Colors.lightBlue,
+                onTap: () {
+                  Navigator.pop(context);
+                }),
+            ListTile(
+                leading: const Icon(Icons.abc_rounded),
+                trailing: const Icon(Icons.abc),
+                title: const Text('abc'),
+                hoverColor: Colors.lightGreen,
+                focusColor: Colors.lightBlue,
+                onTap: () {
+                  Navigator.pop(context);
+                }),
+            ListTile(
+                leading: const Icon(Icons.abc_rounded),
+                trailing: const Icon(Icons.abc),
+                title: const Text('abc'),
+                hoverColor: Colors.lightGreen,
+                focusColor: Colors.lightBlue,
+                onTap: () {
+                  Navigator.pop(context);
+                }),
+            ListTile(
+                leading: const Icon(Icons.abc_rounded),
+                trailing: const Icon(Icons.abc),
+                title: const Text('abc'),
+                hoverColor: Colors.lightGreen,
+                focusColor: Colors.lightBlue,
+                onTap: () {
+                  Navigator.pop(context);
+                }),
+            ListTile(
+                leading: const Icon(Icons.abc_rounded),
+                trailing: const Icon(Icons.abc),
+                title: const Text('abc'),
+                hoverColor: Colors.lightGreen,
+                focusColor: Colors.lightBlue,
+                onTap: () {
+                  Navigator.pop(context);
+                }),
+            ListTile(
+                leading: const Icon(Icons.abc_rounded),
+                trailing: const Icon(Icons.abc),
+                title: const Text('abc'),
+                hoverColor: Colors.lightGreen,
+                focusColor: Colors.lightBlue,
+                onTap: () {
+                  Navigator.pop(context);
+                }),
+          ],
+        ),
+      ),
+    );
+  }
+}
